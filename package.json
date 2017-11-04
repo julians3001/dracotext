@@ -1,0 +1,20 @@
+{
+  "name": "dracotext",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dracoapi/dracotext.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dracoapi/dracotext/issues"
+  },
+  "homepage": "https://github.com/dracoapi/dracotext#readme"
+}
