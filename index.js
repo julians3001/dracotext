@@ -1,4 +1,4 @@
-let loaded = {};
+const loaded = {};
 
 class Strings {
     constructor(language = 'english') {
@@ -12,14 +12,14 @@ class Strings {
         return this.strings['creature.' + key];
     }
 
-    getitem(key) {
+    getItem(key) {
         return this.strings['key.item.' + key];
     }
 }
 
-module.exports = function load(language = 'english') {
+module.exports.load = function (language = 'english') {
     if (!loaded[language]) {
         loaded[language] = require(`./generated.${language}`);
     }
     return new Strings(language);
-}
+};
